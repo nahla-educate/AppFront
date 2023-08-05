@@ -1,0 +1,65 @@
+.outer{
+    height: 100vh;
+    background: linear-gradient(to top, #0c215f 50%, #172b69 90%) no-repeat;
+    background-image: url(https://storage.googleapis.com/stateless-gigaom-com/2019/02/iStock-861101766-scaled-768x480.jpg) no-repeat;
+    
+}
+
+.panel-heading{
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.form-inline label{
+    padding-left: 10px;
+    margin: 0;
+    cursor: pointer;
+}
+.panel{
+    min-height: 380px;
+    box-shadow: 20px 20px 80px regb(218, 218, 218);
+    border-radius: 12px;
+    margin-top: 40%;
+}
+.input-field{
+    width: 80%;
+    margin-left: 10%;
+    border-radius: 5px;
+    padding: 3px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    border: 1px solid #ddd;
+    color: #0c215f;
+}
+.input-field.error{
+    border: 1px solid red;
+    color: red;
+}
+input[type='email'],
+input[type='text'],
+input[type='password']{
+    border: none;
+    outline: none;
+    box-shadow: none;
+    width: 100%;
+}
+
+
+.fa-eye-slash .btn{
+    border: none;
+    outline: none;
+    box-shadow: none;
+}
+
+img{
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+    position: relative;
+}
